@@ -36,7 +36,6 @@ img {
 
 section {
     padding: 120px 0;
-    max-width: 1440px;
 }
 
 .container {
@@ -475,7 +474,6 @@ section {
     background: #2e2f42;
     height: 312px;
     padding: 100px 0;
-    max-width: 1440px;
 }
 
 .footer-logo-text {
@@ -714,7 +712,6 @@ input::placeholder {
 .modal-comment {
     margin-bottom: 16px;
 }
-
 
 .label-name {
     display: block;
