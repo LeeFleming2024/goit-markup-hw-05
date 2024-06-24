@@ -93,7 +93,6 @@ section {
     display: block;
 }
 
-
 .nav-ul-link:hover {
     color: #404bbf;
 }
@@ -213,7 +212,7 @@ section {
     margin: 0 auto;
 }
 
-.visualy-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -225,7 +224,6 @@ section {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 
 .advantages-list {
     display: flex;
@@ -553,11 +551,13 @@ section {
     margin-bottom: 16px;
     margin-left: 80px;
 }
+
 .form {
     display: flex;
     gap: 24px;
     margin-left: 80px;
 }
+
 .form-input {
     border: 1px solid #fff;
     border-radius: 4px;
@@ -732,7 +732,6 @@ input::placeholder {
     fill: #4d5ae5;
 }
 
-
 .input-form-comment {
     height: 120px;
     resize: none;
@@ -828,7 +827,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
-
 }
 
 .privacy-policy-link {
