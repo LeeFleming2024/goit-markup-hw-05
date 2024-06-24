@@ -49,7 +49,6 @@ section {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    max-width: 1440px;
 }
 
 .header-conteiner {
@@ -154,13 +153,12 @@ section {
 /* Solutions */
 
 .main-section-one {
-    background: #2e2f42;
+    /* background: #2e2f42; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-office.jpg);
     padding: 188px 0;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-    max-width: 1440px;
+    background-size: 1440px 600px;
 }
 
 .title {
@@ -216,7 +214,6 @@ section {
 }
 
 .visualy-hidden {
-
     position: absolute;
     width: 1px;
     height: 1px;
@@ -352,14 +349,9 @@ section {
     fill: #f4f4fd;
 }
 
-
 .conteiner-card {
     padding: 32px 0;
 }
-
-/* .img-team {
-
-} */
 
 .name-team {
     font-weight: 500;
@@ -469,7 +461,6 @@ section {
     align-items: baseline;
 }
 
-
 .footer {
     background: #2e2f42;
     height: 312px;
@@ -488,7 +479,6 @@ section {
     color: #f4f4fd;
     width: 264px;
 }
-
 
 .h-logo-f {
     font-family: "Raleway", sans-serif;
@@ -754,9 +744,6 @@ input::placeholder {
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .text-comment {
-} */
 
 .input-svg {
     position: relative;
